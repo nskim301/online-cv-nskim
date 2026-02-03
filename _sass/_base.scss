@@ -183,9 +183,15 @@ p {
     }
   }
   .upper-row {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 2px;
+    //position: relative;
+    //overflow: hidden;
+    //margin-bottom: 2px;
+    display: flex;  //fixed
+    flex-wrap: wrap;  //fixed
+    justify-content: space-between;  //fixed
+    align-items: baseline;  //fixed
+    overflow: visible;  //fixed
+    margin-bottom: 2px; //fixed
   }
   .job-title,
   .degree {
@@ -196,10 +202,12 @@ p {
     font-weight: 500;
   }
   .time {
-    position: absolute;
+    //position: absolute;
+    position: static; //fixed
     right: 0;
     top: 0;
     color: $text-grey;
+    white-space: nowrap; //fixed
   }
   .company,
   .university {
