@@ -37,7 +37,7 @@ career-profile:
     Namsung Kim received the B.S. degree from Hanyang University, Seoul, South Korea, in 2026, with a major in Electrical Engineering and a multidisciplinary major in Electronic Engineering. He is currently the MS. candidate in Electrical Engineering in 2026 from Pohang University of Science and Technology(POSTECH), Pohang, South Korea. His current research interests include Electronic Design Optimization. He is working with Prof. Seokhyeong Kang in CAD & SoC Design Lab.
 
 education:
-  title: EDUCATION
+  title: Education
   info:
     - degree: MS. in Electrical Engineering
       university: in CSDL, POSTECH (Pohang University of Science and Technology), Republic of Korea
@@ -50,7 +50,7 @@ education:
       details: |
 
 experiences:
-  title: EXPERIENCES
+  title: Experiences
   info:
     - role: Undergraduate Intern
       time: Mar. 2025 - Jun. 2025
@@ -59,13 +59,13 @@ experiences:
         Worked in a Long-term Internship in the Flash Design Team, Memory Business.
       
 projects:
-  title: AWARD & SCHOLARSHIPMENT
+  title: Award & Scholarshipment
 
 publications:
-  title: PUBLICATIONS
+  title: Publications
 
 skills:
-  title: SKILLS & PROFICIENCY
+  title: Skills & Proficiency
   toolset:
     - name: Python
       level: 50%
