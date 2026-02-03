@@ -20,17 +20,17 @@ sidebar:
   languages:
     title: Languages
     info: 
-    - idiom: Korean
-      level: Native
-
-    - idiom: English
-      level: Normal
+      - idiom: Korean
+        level: Native
+  
+      - idiom: English
+        level: Normal
 
   interests:
     title: Interests
     info:
-    - item: Electronic Design Automation
-      link:
+      - item: Electronic Design Automation
+        link:
 
 career-profile:
   title: CAREER PROFILE
