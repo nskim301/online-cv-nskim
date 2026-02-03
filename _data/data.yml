@@ -19,10 +19,9 @@ sidebar:
 
   languages:
     title: Languages
-    info: 
+    info: |
       - idiom: Korean
         level: Native
-  
       - idiom: English
         level: Normal
 
