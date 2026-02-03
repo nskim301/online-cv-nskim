@@ -19,7 +19,7 @@ sidebar:
 
   languages:
     title: Languages
-    items:
+    info:
       - idiom: Korea
         level: Native
       - idiom: English
@@ -27,11 +27,9 @@ sidebar:
 
   interests:
     title: Interests
-    items:
+    info:
       - item: Electronic Design Automation
-        link:
-      - item: 
-        link:
+        link: 
 
 career-profile:
   title: Career Profile
