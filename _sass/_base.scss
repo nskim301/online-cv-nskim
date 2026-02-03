@@ -182,33 +182,49 @@ p {
       margin-bottom: 30px;
     }
   }
+  // .upper-row {
+  //   position: relative;
+  //   overflow: hidden;
+  //   margin-bottom: 2px;
+  // }
+  // .job-title,
+  // .degree {
+  //   color: $text-color;
+  //   font-size: 16px;
+  //   margin-top: 0;
+  //   margin-bottom: 0;
+  //   font-weight: 500;
+  // }
+  // .time {
+  //   position: absolute;
+  //   right: 0;
+  //   top: 0;
+  //   color: $text-grey;
+  // }
+
   .upper-row {
-    //position: relative;
-    //overflow: hidden;
-    //margin-bottom: 2px;
-    display: flex;  //fixed
-    flex-wrap: wrap;  //fixed
-    justify-content: space-between;  //fixed
-    align-items: baseline;  //fixed
-    overflow: visible;  //fixed
-    margin-bottom: 2px; //fixed
+    display: flex;
+    flex-wrap: wrap;      // 줄바꿈 허용
+    justify-content: space-between;
+    align-items: baseline;
+    overflow: visible;    // hidden이면 잘릴 수 있어서
+    margin-bottom: 2px;
   }
-  .job-title,
-  .degree {
-    color: $text-color;
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 500;
-  }
+
   .time {
-    //position: absolute;
-    position: static; //fixed
-    right: 0;
-    top: 0;
+    position: static;     // absolute 제거
+    margin-left: 12px;
     color: $text-grey;
-    white-space: nowrap; //fixed
+    white-space: nowrap;  // 날짜는 한 줄 유지
   }
+
+  .degree,
+  .job-title {
+    margin-right: 12px;
+    min-width: 0;         // flex에서 긴 텍스트 줄바꿈 유도
+  }
+//////////////
+  
   .company,
   .university {
     margin-bottom: 10px;
