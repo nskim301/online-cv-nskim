@@ -277,14 +277,3 @@ p {
     color: $heart;
   }
 }
-
-//
-/* Move ONLY BS date to the next line (keep right aligned) */
-.main-wrapper .educations-section .edu-bs .upper-row {
-  padding-bottom: 18px; /* 아래 공간 확보 (겹침 방지) */
-}
-
-.main-wrapper .educations-section .edu-bs .time {
-  top: 22px;            /* 한 줄 아래로 내리기 (값 조절) */
-}
-
