@@ -18,18 +18,14 @@ sidebar:
   github: nskim301
 
   languages:
-    title: Languages
-    info:
-      - idiom: Korea
-        level: Native
-      - idiom: English
-        level: Normal
+    - idiom: Korea
+      level: Native
+    - idiom: English
+      level: Normal
 
   interests:
-    title: Interests
-    info:
-      - item: Electronic Design Automation
-        link: 
+    - item: Electronic Design Automation
+      link: 
 
 career-profile:
   title: Career Profile
