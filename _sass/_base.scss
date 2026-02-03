@@ -223,6 +223,23 @@ p {
     margin-right: 12px;
     min-width: 0;         // flex에서 긴 텍스트 줄바꿈 유도
   }
+
+  .main-wrapper .educations-section .upper-row {
+    position: relative;
+  }
+
+  .main-wrapper .educations-section .degree {
+    padding-right: 160px;   // 날짜 영역만큼 확보 (필요시 140~200 조절)
+  }
+
+  .main-wrapper .educations-section .time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    white-space: nowrap;
+  }
+
+  
 //////////////
   
   .company,
